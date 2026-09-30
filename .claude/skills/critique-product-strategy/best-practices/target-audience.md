@@ -1,5 +1,23 @@
 # Target audience
 
+## Course framework: the bullseye approach
+*(Named in the course's example critique. The full lesson text isn't in this repo yet; the summary below is based on how the example critique applies it.)*
+
+The best practice for target audience definition is the **bullseye approach**: start with a broad addressable audience and **narrow relentlessly**, ring by ring, down to the narrowest segment where you can achieve strong product-market fit (the point where a product clearly satisfies strong demand in a market).
+
+```
+( Broad addressable audience
+  ( Narrower segment
+    ( Bullseye: narrowest segment with the strongest pain + fit ) ) )
+```
+
+What to check:
+- **Narrowing logic is shown.** Each ring explains *why* this segment over alternatives. Examples of alternatives: single-income families nearing retirement, recent inheritors, small business owners.
+- **Evidence, not aspiration.** Segments are validated by acute pain or willingness to pay, not chosen because they're an attractive demographic.
+- **Direction is inward.** Red flag: a strategy that starts somewhat narrow and then *expands outward* by adding more segments.
+- **One bullseye.** Multiple segments (especially B2C and B2B mixed, e.g., consumers + financial advisors) with no prioritization framework is a red flag. They have different needs, willingness to pay, acquisition channels, onboarding and features.
+- **Claims about a segment are evidenced.** Calling a segment "high-trust" or "eager" without evidence is wishful thinking.
+
 A great target audience is **specific, underserved, and reachable**, with the potential to become raving fans.
 
 ## What great looks like

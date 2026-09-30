@@ -1,5 +1,18 @@
 # Problem you're solving
 
+## Course framework: outcome → motivation → gap
+*(Named in the course's example critique. The full lesson text isn't in this repo yet; the summary below is based on how the example critique applies it.)*
+
+A deep problem statement goes beyond the surface symptom and states three things:
+
+| Part | Question | Red flag |
+|---|---|---|
+| **Outcome** | What ultimate outcome does the customer want? (e.g., "retire earlier" vs. "make better decisions" vs. "reduce anxiety" all lead to different product designs) | A **symptom** (anxiety, decision paralysis) stated in place of the outcome |
+| **Motivation** | *Why* do they want that outcome? (e.g., early retirement, safety to take career risks, generational wealth) | Motivation missing. It shapes which features to prioritize and how to frame value. |
+| **Gap** | What specific gaps exist in current solutions, and **why do those gaps persist**? (Is it a technology problem, a business model problem, or a trust problem?) | Superficial gap ("tools focus on tracking") with no explanation of why it hasn't been solved. Without it, you can't tell if your solution will hit the same structural barriers. |
+
+**The "faster horse" risk:** framing the problem as customers' stated request ("people need a better X") rather than their underlying outcome leads to incremental solutions. The name comes from the saying "If I had asked people what they wanted, they would have said faster horses."
+
 A great problem statement describes an **acute, frequent (or high-stakes), and evidenced** problem in the customer's life, deeply enough to guide the solution.
 
 ## What great looks like

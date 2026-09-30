@@ -1,5 +1,20 @@
 # Value proposition
 
+## Course framework: benefits and sub-benefits
+*(Named in the course's example critique, which is cut off at this point. The structure below is inferred; replace it with the lesson text when available.)*
+
+- A value proposition is a set of **customer benefits**, not a **feature list**. "Automated data ingestion, AI-powered classification, scenario simulation" are features; the benefit is what the customer gets from them.
+- To avoid the "photo compression" problem (below), articulate it as a **main benefit broken into specific sub-benefits**, each tied to a customer need, rather than one compressed statement.
+
+```
+Main benefit (the outcome the customer gets)
+├── Sub-benefit 1 → need it serves → feature(s) that deliver it
+├── Sub-benefit 2 → …
+└── Sub-benefit 3 → …
+```
+
+Red flags: the value proposition is a list of what the product *does*; no sub-benefits; benefits not traceable to the stated problem.
+
 ## From the course: "Coming up with a value proposition"
 
 In this lesson, we'll walk through the third dimension of product strategy: value proposition.

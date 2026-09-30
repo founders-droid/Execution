@@ -32,6 +32,8 @@ Play devil's advocate and point out flaws or limitations in the provided product
    @best-practices/channel-strategy.md
    @best-practices/monetization-strategy.md
 
+   For the expected tone and depth, see `examples/radical-financial-planner-critique-excerpt.md`: lead each dimension with a bold one-line verdict, then "Specific problems:" bullets that name the best-practice framework being violated (e.g., bullseye approach, outcome-motivation-gap, sub-benefits) and quote the strategy's own words.
+
 3. Assess whether the strategy is compelling, not just complete. Rate each of the 6 attributes of a compelling strategy (Insight-driven, Distinctive, Focused, Cohesive, Market aware, Non-consensus & right) as Strong, Weak, or Missing, using `what-great-product-strategy-looks-like.md`.
 
 4. Wrap up with a summary of the key critiques you have on the product strategy.
