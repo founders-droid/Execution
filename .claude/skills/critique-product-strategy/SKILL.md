@@ -1,46 +1,73 @@
 ---
 name: critique-product-strategy
-description: Critique a product strategy, roadmap, or plan — test it for clarity, evidence, differentiation, feasibility, and measurable outcomes — and save a scored critique with concrete fixes to strategy/critiques/. Use when the user runs /critique-product-strategy or asks for feedback on a strategy doc.
+description: Provide a critique of a product strategy document
+argument-hint: [strategy document]
+context: fork
+disable-model-invocation: true
+user-invocable: true
 ---
 
-# Critique product strategy
+Provide a product strategy critique of the specified product strategy: $ARGUMENTS
 
-Be direct and specific. Critique the strategy, not the writing style.
+Play devil's advocate and point out flaws or limitations in the provided product strategy. Don't be nice! Point out in detail why the product strategy may not work, what questions remain unaddressed, and where the strategy falls short.
 
-## Steps
-1. **Collect input.** A doc, file, link, or pasted text. Before critiquing, restate the strategy in 3 bullets: who it's for, what problem it solves, and the bet being made.
-2. **Score each area from 1 to 5**, with a one-line reason:
-   - **Target user & problem:** Is it specific? Is there evidence the problem is real and painful?
-   - **Desired outcome & metrics:** Is there a North Star metric (the one number that shows success) plus input metrics? Are there targets and dates?
-   - **Differentiation:** Why do we win? Why can't competitors copy it quickly?
-   - **Choices & non-goals:** Does it say what we will *not* do?
-   - **Feasibility:** Are resources, dependencies, and sequencing realistic?
-   - **Risks:** Are the biggest assumptions named? Is there a plan to test them?
-   - **Go-to-market & monetization:** How does the product reach users, and how does it make money?
-3. **List the top 3 weaknesses**, most serious first. For each, give a concrete fix and a question to ask the author.
-4. **List the riskiest assumptions** and the cheapest way to test each one.
-5. **Give a verdict:** Ready, Ready with fixes, or Rework.
-6. **Save** to `strategy/critiques/YYYY-MM-DD-<kebab-name>.md`. Report the verdict and top 3 fixes.
+## Workflow
 
-## Template
+1. Verify that the product strategy addresses each of the following 6 strategic questions. If a strategic question is left unaddressed, call it out clearly:
+
+   - Target audience
+   - Problem to solve \ Problem you're solving
+   - Value proposition
+   - Competitive advantage \ strategic differentiation
+   - Growth strategy \ channel strategy
+   - Business model \ monetization strategy
+
+2. Leverage the following knowledge files to critique each of the dimensions of the product strategy. Read each one (they are in this skill's `best-practices/` folder) before critiquing. Your goal is NOT to rewrite the strategy to be better. Instead it's to provide detailed critiques of what's wrong with the strategy and where it could be stronger.
+
+   @best-practices/what-great-product-strategy-looks-like.md
+   @best-practices/target-audience.md
+   @best-practices/problem-youre-solving.md
+   @best-practices/value-proposition.md
+   @best-practices/strategic-differentiation.md
+   @best-practices/channel-strategy.md
+   @best-practices/monetization-strategy.md
+
+3. Wrap up with a summary of the key critiques you have on the product strategy.
+
+4. Save the entire critique into a markdown file in the same directory as the original product strategy, with the same filename but with '-critique' appended to the end. For example, if the original product strategy is at 'projects/product-x/strategy.md', save your critique to 'projects/product-x/strategy-critique.md'.
+
+   If the strategy was pasted or shared as an image rather than a file, save to `strategy/critiques/YYYY-MM-DD-<kebab-strategy-name>-critique.md`.
+
+## Critique format
+
 ```markdown
-# Strategy critique: <name>
-- **Date:** YYYY-MM-DD · **Verdict:** Ready | Ready with fixes | Rework
+# Critique: <strategy name>
 
-## The strategy in 3 bullets
+## Coverage of the 6 strategic questions
+| Question | Addressed? (Yes / Partly / No) | Where it falls short |
+|---|---|---|
+| Target audience | | |
+| Problem you're solving | | |
+| Value proposition | | |
+| Strategic differentiation | | |
+| Growth / channel strategy | | |
+| Business / monetization model | | |
+
+## Where to play
+### Target audience
+### Problem you're solving
+
+## How to win
+### Value proposition
+### Growth / channel strategy
+### Business / monetization model
+
+## How to endure
+### Strategic differentiation
+
+## Unanswered questions
 - 
 
-## Scorecard
-| Area | Score (1–5) | Why |
-|---|---|---|
-
-## Top weaknesses & fixes
-1. **<weakness>** — Fix: … — Ask: …
-
-## Riskiest assumptions
-| Assumption | Why risky | Cheapest test |
-|---|---|---|
-
-## What's strong
-- 
+## Summary of key critiques
+1. 
 ```
