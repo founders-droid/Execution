@@ -1,40 +1,16 @@
 ---
 name: answer-data-curiosity
-description: Answer an ad-hoc data question ("why did X drop?", "how many users do Y?") by framing it, finding or requesting the data, analyzing it, and writing a short answer with confidence level to data-questions/. Use when the user runs /answer-data-curiosity or asks a quick product-data question.
+description: Answer data questions by querying the database
+context: fork
+disable-model-invocation: true
+user-invocable: true
 ---
 
-# Answer data curiosity
+Analyze MySQL database data to answer specific data questions the user submits. For each question, construct the appropriate MySQL query, execute it, and return the results in a clear format.
 
-## Steps
-1. **Restate the question** as something that can be measured: metric, segment, time range, and comparison. If it's vague, pick the most likely reading and say so.
-2. **Find the data.** Use files, CSVs, or query results the user provided, or data in the repo.
-   - If there's no data, write the query or the exact data pull needed (e.g., SQL with table and column placeholders), then stop and ask the user to run it.
-3. **Analyze.**
-   - Start with the headline number, then break it down by the likely drivers: segment, platform, time, cohort (a group of users who started in the same period).
-   - Check for data problems first: tracking changes, outages, seasonality.
-4. **Answer plainly.** Give one sentence of answer, the supporting numbers, and a confidence level (High, Medium, or Low) with the reason for it.
-5. **Suggest a follow-up.** Name what would raise confidence, or the next question worth asking.
-6. **Save** to `data-questions/YYYY-MM-DD-<kebab-question>.md`. Report the answer and confidence.
-
-## Template
-```markdown
-# Q: <question>
-- **Date:** YYYY-MM-DD · **Asked by:** <name or "Not captured">
-
-## Answer
-<one sentence> — **Confidence:** High | Medium | Low (<why>)
-
-## Evidence
-| Cut | Value | Change |
-|---|---|---|
-
-## Method
-- Data source, filters, time range
-- Query (if any)
-
-## Caveats
-- 
-
-## Follow-ups
-- 
-```
+## Workflow
+1. Start by analyzing the database you have access to, understanding the tables and columns available. Summarize the database schema in a concise format.
+2. Let the user know that you are ready to answer their data questions. Prompt them to ask any question they have about the data.
+3. For each question the user asks, construct the appropriate MySQL query to retrieve the relevant data. Then execute the query against the database.
+4. Create an HTML report that includes the original question, the MySQL query used, a neatly formatted table of results, and a visualization that graphs the results. Save this report to `./projects/data-curiosity/answer-<timestamp>.html`.
+5. Open the HTML report in the user's default web browser to verify successful generation.
