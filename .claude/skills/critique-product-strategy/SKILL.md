@@ -32,11 +32,20 @@ Play devil's advocate and point out flaws or limitations in the provided product
    @best-practices/channel-strategy.md
    @best-practices/monetization-strategy.md
 
-3. Wrap up with a summary of the key critiques you have on the product strategy.
+3. Assess whether the strategy is compelling, not just complete. Rate each of the 6 attributes of a compelling strategy (Insight-driven, Distinctive, Focused, Cohesive, Market aware, Non-consensus & right) as Strong, Weak, or Missing, using `what-great-product-strategy-looks-like.md`.
 
-4. Save the entire critique into a markdown file in the same directory as the original product strategy, with the same filename but with '-critique' appended to the end. For example, if the original product strategy is at 'projects/product-x/strategy.md', save your critique to 'projects/product-x/strategy-critique.md'.
+4. Wrap up with a summary of the key critiques you have on the product strategy.
+
+5. Save the entire critique into a markdown file in the same directory as the original product strategy, with the same filename but with '-critique' appended to the end. For example, if the original product strategy is at 'projects/product-x/strategy.md', save your critique to 'projects/product-x/strategy-critique.md'.
 
    If the strategy was pasted or shared as an image rather than a file, save to `strategy/critiques/YYYY-MM-DD-<kebab-strategy-name>-critique.md`.
+
+## Usage
+Keep strategy documents as markdown files, e.g. `projects/<product>/strategy.md`, and pass the file with `@`:
+
+```
+/critique-product-strategy @projects/radical-financial-planner/strategy.md
+```
 
 ## Critique format
 
@@ -64,6 +73,16 @@ Play devil's advocate and point out flaws or limitations in the provided product
 
 ## How to endure
 ### Strategic differentiation
+
+## Is it compelling?
+| Attribute | Rating (Strong / Weak / Missing) | Why |
+|---|---|---|
+| Insight-driven | | |
+| Distinctive | | |
+| Focused | | |
+| Cohesive | | |
+| Market aware | | |
+| Non-consensus & right | | |
 
 ## Unanswered questions
 - 

@@ -39,12 +39,45 @@ When it comes to the question of how to win, there are 3 critical levers we have
 
 **The growth strategy.** This dimension addresses how we will attract our target audience to our products and services, and how we will do so in a sustainable way. → see `channel-strategy.md`
 
-## How to endure
-Winning customers today isn't enough. Competitors will copy what works. The strategy must explain what advantage compounds over time and is hard to copy.
+```
+How to win
+├── Value proposition
+├── Business model
+└── Growth strategy
+```
 
-**Strategic differentiation.** The durable advantages (moats) that let us keep winning despite fast-moving competition. → see `strategic-differentiation.md`
+## How to endure
+And now let's tackle the final high-level question of our strategy, which is how to endure.
+
+**Strategic differentiation.** The durable advantages that let us keep our value proposition compelling despite fast-moving competition. → see `strategic-differentiation.md`
+
+## What makes a strategy compelling
+Covering all 6 dimensions makes a strategy *complete*. It also needs these attributes to be *compelling*:
+
+- **Insight-driven**
+- **Distinctive**
+- **Focused**
+- **Cohesive**
+- **Market aware**
+- **Non-consensus & right**
+
+Now the reason I went into detail on what makes a strategy compelling is to reinforce how unlikely it is for an LLM generating a full strategy to be able to put together such a compelling strategy all by itself. It doesn't deeply know our unique insights, it struggles with making non-consensus decisions, and it often struggles with making opinionated choices which is required to create deep focus.
+
+### How to test each attribute in a critique
+*(Working definitions added for the critique. The course's detailed lesson on each attribute is not yet in this file.)*
+
+| Attribute | What to check | Red flag |
+|---|---|---|
+| Insight-driven | Does it rest on a specific, evidenced insight about customers or the market that others have missed? | Generic observations anyone could make; no evidence |
+| Distinctive | Would it be clearly different from a competitor's strategy if the names were removed? | Could describe any product in the category |
+| Focused | Does it make opinionated choices: one beachhead segment, a primary problem, explicit non-goals? | Tries to serve everyone; no stated trade-offs |
+| Cohesive | Do the 6 dimensions reinforce each other (audience ↔ problem ↔ value prop ↔ channel ↔ business model ↔ differentiation)? | Dimensions contradict or ignore each other |
+| Market aware | Does it account for direct competitors, indirect alternatives, and adjacent markets building into the space? | Only direct competitors named, or an outdated landscape |
+| Non-consensus & right | Does it make a bet most people would disagree with, and give evidence for why it's right? | Only consensus bets (no edge), or contrarian bets with no evidence |
 
 ## How to use this in a critique
 - A strategy that skips any of the 6 dimensions is incomplete. Call out the gap explicitly.
 - The dimensions must fit together: the value proposition must solve *the stated problem* for *the stated audience*, the channel must reach *that* audience, the business model must match what *that* audience will pay, and the differentiation must protect *that* value proposition.
 - Inconsistencies between dimensions are often the most important critique.
+- A strategy can be complete but still not compelling. Test it against the 6 attributes above.
+- Be especially skeptical of strategies that read as if generated without real insight: generic, consensus, and unfocused.
